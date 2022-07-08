@@ -361,3 +361,5 @@ select {
 .appointment form input[type="submit"]:hover {
     background: var(--black);
 }
+
+/***Post CSS*****/

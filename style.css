@@ -323,7 +323,7 @@ header .fa-bars {
 }
 
 .appointment .heading {
-    color: #fff;
+    color: cornflowerblue;
 }
 
 .appointment form {
@@ -362,4 +362,48 @@ select {
     background: var(--black);
 }
 
-/***Post CSS*****/
+/***blog CSS*****/
+.blog .box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.blog .box-container .box {
+    width: 30rem;
+    margin: 2rem 1rem;
+    overflow: hidden;
+    border-radius: .5rem;
+    box-shadow: 0 .3rem .5rem rgba(.5, .5, .5, 1);
+}
+
+.blog .box-container .box img {
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blog .box-container .box .content {
+    padding: 0 1.5rem;
+}
+
+.blog .box-container .box .content span {
+    color: #666;
+    font-size: 1.5rem;
+    display: block;
+    padding: 1rem 0;
+}
+
+.blog .box-container .box .content h3 {
+    font-size: 2rem;
+    color: var(--black);
+}
+
+.blog .box-container .box .content:hover h3 {
+    color: var(--blue);
+}
+
+.blog .box-container .box .content p {
+    font-size: 1.3rem;
+    color: var(--black);
+}

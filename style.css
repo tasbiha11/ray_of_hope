@@ -407,3 +407,36 @@ select {
     font-size: 1.3rem;
     color: var(--black);
 }
+
+/******Footer CSS******/
+.footer {
+    background: var(--black);
+}
+
+.footer img {
+    width: 20px;
+    height: 20px;
+}
+
+.footer .social a img:hover {
+    background-color: white;
+}
+
+.footer p {
+    font-size: 1.5rem;
+    color: #eee;
+}
+
+.footer p:hover {
+    color: var(--CornflowerBlue);
+}
+
+.footer .socials {
+    margin-top: 100px;
+}
+
+.footer a {
+    font-size: 2rem;
+    color: #ccc;
+    display: block;
+}

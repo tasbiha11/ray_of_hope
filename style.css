@@ -418,9 +418,7 @@ select {
     height: 20px;
 }
 
-.footer .social a img:hover {
-    background-color: white;
-}
+
 
 .footer p {
     font-size: 1.5rem;
@@ -439,4 +437,71 @@ select {
     font-size: 2rem;
     color: #ccc;
     display: block;
+}
+
+header .fa-times {
+    transform: rotate(180deg);
+}
+
+/* media queries  */
+
+@media (max-width:768px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    header .fa-bars {
+        display: block;
+        color: #000;
+    }
+
+    header .nav {
+        position: fixed;
+        top: -100rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0 0 0 100vh rgba(0, 0, 0, .3);
+        border-radius: .5rem;
+        border: .3rem solid var(--blue) !important;
+        color: #000;
+        width: 95%;
+        opacity: 0;
+    }
+
+    header .nav ul {
+        width: 100%;
+        flex-flow: column;
+        padding: 2rem 0;
+        color: #000;
+    }
+
+    header .nav ul li {
+        width: 100%;
+        text-align: center;
+        margin: 1rem 0;
+        color: black;
+    }
+
+    header .nav ul li a {
+        font-size: 3rem;
+        display: block;
+        color: #354046;
+    }
+
+    header .nav-toggle {
+        top: 50%;
+        opacity: 1;
+        color: #000;
+    }
+
+    .appointment form .inputBox input,
+    select {
+        width: 100%;
+    }
+
+    .appointment form input[type="submit"] {
+        width: 100%;
+    }
+
 }
